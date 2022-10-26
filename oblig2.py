@@ -12,12 +12,29 @@ def isLeapYear(intYear):
     else:
         return False
 
+def test_checks_if_var_intYear_is_leap_year_if_divisible_by_four_but_not_hundred_or_if_divisible_by_fourhundred():
+    assert (isLeapYear(intYear))
+
+
+def test_checks_if_var_intYear_is_not_leap_year_by_returning_false_using_isLeapYear_function():
+    assert not (isLeapYear(intYear))
+
 #Function number two with test
 #Imports the calendar module and uses the .isLeap method that comes with it to check whether the result is True or False.
 year = 20
 def checkYear(year):
     import calendar
     return (calendar.isleap(year))
+
+def test_checkYear_is_a_leap_year():
+    if (checkYear(year)):
+        assert True
+    else:
+        assert False
+
+
+
+
 
 
 
