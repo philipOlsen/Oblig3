@@ -6,3 +6,11 @@ def test_checks_if_var_intYear_is_leap_year_if_divisible_by_four_but_not_hundred
 
 def test_checks_if_var_intYear_is_not_leap_year_by_returning_false_using_isLeapYear_function():
     assert not (isLeapYear(intYear))
+    
+def test_checkYear_is_a_leap_year():
+    if (checkYear(year)):
+        assert True
+    else:
+        assert False
+        
+        
