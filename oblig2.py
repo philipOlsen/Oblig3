@@ -3,7 +3,7 @@ import pytest
 
 #Function number one with test.
 #By using an If test with leap year calculations the code checks if the year is a leap year or not.
-intYear = 2000
+intYear = 0
 def isLeapYear(intYear):
     if ((intYear % 4 == 0) and
         (intYear % 100 != 0) or
