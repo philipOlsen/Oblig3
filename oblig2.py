@@ -12,7 +12,7 @@ def isLeapYear(intYear):
     else:
         return False
 
-def test_checks_if_var_intYear_is_leap_year_if_divisible_by_four_but_not_hundred_or_if_divisible_by_fourhundred():
+def test_divisible_by_four_but_not_hundred():
     assert (isLeapYear(intYear))
 
 #Function number two with test
